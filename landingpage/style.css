@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    /* justify-items: center; */
+    /* align-items: center; */
+}
+header{
+    /* padding: 20px; */
+    /* margin: 10px; */
+    background-image: url(img/bg-hero-desktop.svg);
+
+}
+footer{
+    background-color: rgb(26, 26, 78);;
+}
+.headercontainer{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.headerbox{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.maincontainer{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.mainbox{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+.middiv{
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    /* padding: 50px; */
+}
+
+.footercontainer{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+.footerbox{
+    width: 25%;
+
+}
+
+/* main{
+    padding: 20px;
+    margin: 10px;
+}
+main img{
+    height: 100%;
+    width: 80%;
+}
+
+.maincontainer {
+    box-sizing: border-box;
+    padding: 5px;
+    height: 2000px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    /* align-content: space-between; */
+}
+/* .sectioncontainer {
+    height: 25%;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+    border: 1px solid rgb(20, 6, 6);
+    margin: 5px;
+}
+
+.childcontainer {
+    height: 45%;
+    width: 45%;
+    /* margin: 10px; */
+}
+/* footer{
+    margin: 30px;
+    padding: 30px;
+    background-color: rgb(26, 26, 78);
+    color: white; */
+
+}
+/* .footerdiv{
+    display: flex;
+    flex-wrap: wrap; */
+}
+/* .footer{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 30%;
+    padding: 20px;
+    margin: 10px; */
+}
+/* .footer1{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 7px;
+    border: 5px;
+    padding: 5px; */
+
+}
+/* .footer1A{
+
+}
+button{
+    background-color: rgb(247, 85, 160);
+    border: 30px;
+    /* border-width: 4px 8px; */
+    border-radius: 40px;
+    color: white;
+    margin: 15px;
+    padding: 10px;
+    font-size: 9px;
+} */
+/* .buttontop{
+    display: flex;
+    justify-content: space-between;
+}
+.button1{
+    color: black;
+    background-color: white; */
+} */ */
