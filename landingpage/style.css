@@ -2,143 +2,162 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-
 }
-body{
-    /* justify-items: center; */
-    /* align-items: center; */
+main{
+    position: relative;
 }
 header{
-    /* padding: 20px; */
-    /* margin: 10px; */
-    background-image: url(img/bg-hero-desktop.svg);
+    background-image: url(img/bg-hero-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+h3{
 
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    text-align: center ;
+}
+
+p {
+    text-align: center ;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+main p{
+    color: rgba(61, 44, 44, 0.596);
 }
 footer{
-    background-color: rgb(26, 26, 78);;
-}
-.headercontainer{
-    width: auto;
-    display: flex;
-    flex-wrap: wrap;
-}
-.headerbox{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-}
-.maincontainer{
-    width: auto;
-    display: flex;
-    flex-wrap: wrap;
-
-}
-.mainbox{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-
-}
-.middiv{
-    align-items: center;
-    text-align: center;
-    margin: 0 auto;
-    /* padding: 50px; */
-}
-
-.footercontainer{
-    width: auto;
-    display: flex;
-    flex-wrap: wrap;
-    color: white;
-}
-.footerbox{
-    width: 25%;
-
-}
-
-/* main{
-    padding: 20px;
-    margin: 10px;
-}
-main img{
-    height: 100%;
-    width: 80%;
-}
-
-.maincontainer {
-    box-sizing: border-box;
-    padding: 5px;
-    height: 2000px;
-    width: 1000px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
-    /* align-content: space-between; */
-}
-/* .sectioncontainer {
-    height: 25%;
-    width: 90%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-items: center;
-    justify-content: space-around;
-    border: 1px solid rgb(20, 6, 6);
-    margin: 5px;
-}
-
-.childcontainer {
-    height: 45%;
-    width: 45%;
-    /* margin: 10px; */
-}
-/* footer{
-    margin: 30px;
-    padding: 30px;
+    padding-top: 50px;
+    margin-top: 70px;
     background-color: rgb(26, 26, 78);
-    color: white; */
-
 }
-/* .footerdiv{
-    display: flex;
-    flex-wrap: wrap; */
-}
-/* .footer{
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-    height: 30%;
-    padding: 20px;
-    margin: 10px; */
-}
-/* .footer1{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 7px;
-    border: 5px;
-    padding: 5px; */
-
-}
-/* .footer1A{
-
+footer div p{
+    color: white;
+    font-weight: 400;
+    text-align: left;  
+    margin-left: 10px; 
+    margin-top: 10px;
 }
 button{
-    background-color: rgb(247, 85, 160);
-    border: 30px;
-    /* border-width: 4px 8px; */
-    border-radius: 40px;
+    background-color: hsl(322, 100%, 66%);
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 20px;
     color: white;
-    margin: 15px;
-    padding: 10px;
-    font-size: 9px;
-} */
-/* .buttontop{
-    display: flex;
-    justify-content: space-between;
+    font-size: 10px;
+    padding: 7px 18px;
+    border-width: 0;
+    margin: 5px;
 }
-.button1{
+#imageresize{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.toplogo{
+    display: flex;
+    flex-wrap: wrap;
+}
+.one{
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+.button2{
+    background-color: white;
     color: black;
-    background-color: white; */
-} */ */
+    font-weight: bolder;
+}
+
+.himage{
+    width: 100px;
+}
+.mainimage{
+    width: 100%;
+}
+.container{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    padding: 10px;
+    padding-bottom: 50px;
+    border-style: groove;   
+}
+.box{
+    width: 80%;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.middiv{
+    width: 75%;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    border-style: groove;
+    padding: 10px;
+    position: absolute;
+    bottom: -100px;
+    right: 40px;
+    z-index: 1;
+    background-color: white;
+}
+.fcontainer{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.fbox{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.flogo{
+    display: flex;
+}
+.footerimg{
+    width: 25%;
+    margin: 10px;
+    margin-right: 20px;
+
+}
+.footerimg1{
+    width: 50%;
+    color: white;
+}
+.phone{
+    margin-left: 0;
+}
+.footp{
+    margin-left: 10px;
+}
+
+@media screen and (min-width : 375px) {
+    header{
+        background-image: url(img/bg-hero-desktop.svg);
+    }
+    .container{
+        width: auto;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .box{
+        width: 80%;
+        padding: 10px;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+}
+    
+
+
+
