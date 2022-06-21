@@ -33,6 +33,7 @@ main p{
 }
 footer{
     padding-top: 50px;
+    padding-bottom: 30px;
     margin-top: 70px;
     background-color: rgb(26, 26, 78);
 }
@@ -53,16 +54,11 @@ button{
     border-width: 0;
     margin: 5px;
 }
-#imageresize{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-}
 
 .toplogo{
     display: flex;
     flex-wrap: wrap;
+    
 }
 .one{
     margin-right: auto;
@@ -88,7 +84,8 @@ button{
     margin: 30px;
     padding: 10px;
     padding-bottom: 50px;
-    border-style: groove;   
+    border-style: groove;
+    position: relative;   
 }
 .box{
     width: 80%;
@@ -132,11 +129,33 @@ button{
     width: 50%;
     color: white;
 }
+.ficons{
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.soci{
+    
+
+}
+.socials{
+    display:flex;
+    flex-wrap: wrap;
+}
 .phone{
     margin-left: 0;
 }
 .footp{
     margin-left: 10px;
+}
+/* .ficons{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; */
+}
+.copyright{
+    text-align: center;
+    font-size: 10px;
 }
 
 @media screen and (min-width: 375px) {
@@ -147,15 +166,46 @@ button{
     .container {
         width: auto;
         display: flex;
-        flex-wrap: wrap;}
+       flex-direction: row;
+       position: relative;
+    }
     .box {
         width: 80%;
         padding: 10px;
         margin: 0 auto;
         margin-top: 10px;
     }
-
+    .two {
+        position: absolute;
+        top: 20px;
+        right:20px;
+    }
+    .mainimage{
+        width: 90%;
+        padding-top: 40px;
+    }
+    .mainbox{
+        padding-top: 80px;
+    }
+    .fcontainer{
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+    }
+    .fbox{
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .fcontent{
+        padding-top: 30px;
+        padding-left: 20px;
+    }
+    .copyright{
+        text-align: right;
+    }
 }
+
     
 
 
