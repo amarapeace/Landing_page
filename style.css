@@ -12,7 +12,7 @@ header{
     background-size: cover;
     background-position: center;
 }
-h3{
+h2{
 
     justify-items: center;
     align-items: center;
@@ -26,7 +26,7 @@ p {
     text-align: center ;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 14px;
 }
 main p{
     color: rgba(61, 44, 44, 0.596);
@@ -87,6 +87,7 @@ button{
     border-style: groove;
     position: relative;   
 }
+
 .box{
     width: 80%;
     padding: 10px;
@@ -139,8 +140,11 @@ button{
 
 }
 .socials{
+    width:50px;
+    height: 60px;
     display:flex;
     flex-wrap: wrap;
+    margin: 0;
 }
 .phone{
     margin-left: 0;
@@ -168,6 +172,9 @@ button{
         display: flex;
        flex-direction: row;
        position: relative;
+    }
+    .second, .fourth{
+        flex-direction: row-reverse;
     }
     .box {
         width: 80%;
